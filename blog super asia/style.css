@@ -455,7 +455,7 @@ body {
 /* Add page styling post end */
 
 /* Responsiveness Start */
-@media(max-width:800px){
+/* @media(max-width:800px){
     .introTextDiv h1{
         font-size: 20px;
     }
@@ -499,7 +499,7 @@ body {
     .introTextDiv h1{
         font-size: 16px;
     }
- }
+ } */
 
 /* Responsiveness End */
 
