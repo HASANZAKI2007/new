@@ -455,7 +455,7 @@ body {
 /* Add page styling post end */
 
 /* Responsiveness Start */
-/* @media(max-width:800px){
+@media(max-width:800px){
     .introTextDiv h1{
         font-size: 20px;
     }
@@ -489,6 +489,10 @@ body {
     .abUs h2{
         text-align: center;
     }
+    .links-section .card img {
+        width: 60px;
+        height: 60px;
+      }
  }
  @media(max-width:500px){
     .addpostDiv{
@@ -499,7 +503,7 @@ body {
     .introTextDiv h1{
         font-size: 16px;
     }
- } */
+ }
 
 /* Responsiveness End */
 
@@ -564,7 +568,19 @@ body {
     padding-top: 20px;
     padding-left: 30px;
 }
-
+/* Links Section */
+.links-section .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .links-section .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .links-section .card img {
+    object-fit: contain;
+  }
 
 .dropdown {
     position: relative;
