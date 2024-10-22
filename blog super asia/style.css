@@ -126,7 +126,7 @@ body {
     background-position: center;
 
     background-size: cover;
-    background-color: #cacaca;
+    background-color: #ffffff;
     width: 100%;
     height: 65vh;
 }
@@ -785,6 +785,11 @@ font-weight: 600;
     font-weight: 600;
     margin-top: 30px;
 }
+.introimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
   
 @media only screen and(max-width:800px) {
     .introTextDiv h1 {
@@ -888,6 +893,11 @@ font-weight: 600;
   
     .card-button {
       width: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    .introimg {
+      height: 200px; /* Adjust as needed for smaller screens */
     }
   }
   
